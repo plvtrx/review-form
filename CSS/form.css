@@ -1,0 +1,66 @@
+.formulario {
+    color: #fff;
+    background-color: #0005;
+    width: 40%;
+    height: 22rem;
+    margin: 2rem auto 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field, .textarea {
+    margin: 1rem auto;
+    border: none;
+    background: none;
+    outline: none;
+
+    background-color: transparent;
+    backdrop-filter: blur(1rem);
+    width: 80%;
+    height: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #fff;
+
+    transition: all 2s ease;
+}
+
+.field:focus, .textarea:focus {
+    border: 1px solid #fff6;
+    transition: all 1s ease;
+
+    text-decoration: none;
+    outline: none;
+}
+
+.nome, .email, .coment {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.textarea {
+    height: 5rem;
+}
+
+.finalizar {
+    display: flex;
+    margin: 1.5rem auto;
+    gap: 2rem;
+}
+
+.submit {
+    width: 10rem;
+    height: 2rem;
+}

@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.fundo {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    bottom: 0;
+}
+
+.cont {
+    background-image: url(../img/neon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 7rem;
+}
+
+.new {
+    margin: 3rem 1rem auto 1rem;
+    display: flex;
+}
+
+.ft-left,.ft-right {
+    background-image: url(../img/aside-left.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 1rem;
+}.ft-right {
+    background-image: url(../img/aside-right.jpg);
+}
+
+.container {
+    overflow: hidden;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 25rem;
+    display: grid;
+    margin: auto;
+    gap: 1rem;
+    grid-template-areas: 
+    'header header header'
+    'aside-left main aside-right'
+    'aside-left main aside-right'
+    'aside-left main aside-right'
+    'footer footer footer';
+}
+
+.header, .aside-left, 
+.main, .aside-right, 
+.footer{
+    grid-area: header;
+    background-image: url(../img/header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aside-left {
+    grid-area: aside-left;
+    background-image: url(../img/left.jpg);
+}
+
+.aside-right {
+    grid-area: aside-right;
+    background-image: url(../img/right.jpg);
+}
+
+.main {
+    grid-area: main;
+    background-image: url(../img/main.jpg);
+}
+
+.footer {
+    grid-area: footer;
+    background-image: url(../img/footer.jpg);
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
