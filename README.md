@@ -16,7 +16,7 @@
 >>* Estilização CSS,
 >>* GRID,
 >>* Responsividade,
->>*Formulario,
+>>* Formulario,
 >>* função JS;
 
 # Para que o codigo seja executado da maneira correta siga as instruções:
